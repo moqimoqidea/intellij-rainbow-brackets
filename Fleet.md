@@ -21,6 +21,8 @@ Here are some screenshots:
 
 1. Enable internal mode for Fleet: add "internalMode": true, into Fleet settings.json file, and *Restart your Fleet IDE*
 
+**internal mode is not required now since the last 1.33 update**
+
 <img width="582" alt="image" src="https://github.com/izhangzhihao/intellij-rainbow-brackets/assets/12044174/fa5f9928-aa92-4a49-8478-c6e8a46691ee">
 
 
