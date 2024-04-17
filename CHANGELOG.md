@@ -24,6 +24,15 @@ Please check the latest screenshots [here](https://github.com/izhangzhihao/intel
 
 ## Change log
 
+<p>2024.2.3</p>
+<ul>
+    <li>Compatible with 2024.1</li>
+    <li>Add 30 seconds delay for enable Rainbow Variables and Scope Highlighting after the IDE startup to avoid IDE license module not initialized issue.</li>
+    <li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/issues/2721">Scope highlighting does not work with Python decorated functions.</a></li>
+    <li>Regarding the "Do not ask" option for the register form pop-up</li>
+</ul>
+<br/>
+
 <p>2024.2.2</p>
         <ul>
             <li>🎉<a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/blob/2022.3/Fleet.md">Fleet Support</a></li>
@@ -35,7 +44,7 @@ Please check the latest screenshots [here](https://github.com/izhangzhihao/intel
 
 <p>2024.2.1</p>
         <ul>
-            <li>Fix an issue in community version of intellij</li>
+            <li>Fix an issue in the community version of intellij</li>
         </ul>
         <br/>
 
