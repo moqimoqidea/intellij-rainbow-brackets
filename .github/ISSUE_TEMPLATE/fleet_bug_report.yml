@@ -1,0 +1,64 @@
+name: Fleet support Bug Report
+description: File a bug report for Fleet support
+labels: ["bug?", "Fleet"]
+body:
+
+  - type: dropdown
+    id: new
+    attributes:
+      label: Have you checked the issues and discussions to ensure there are no duplicates?
+      options:
+        - 'No'
+        - 'Yes'
+    validations:
+       required: true
+
+  - type: dropdown
+    id: internal
+    attributes:
+      label: Have you checked the internal mode turns on?
+      options:
+        - 'No'
+        - 'Yes'
+    validations:
+       required: true
+
+  - type: input
+    id: lang
+    attributes:
+      label: Your programming languages
+      description: like Java, Python etc.
+    validations:
+       required: true
+
+  - type: textarea
+    id: exp
+    attributes:
+      label: Expected Behavior
+      description: what should happen
+    validations:
+      required: true
+
+  - type: textarea
+    id: act
+    attributes:
+      label: Current Behavior
+      description: what happens instead of the expected behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: code
+    attributes:
+      label: Code snippet for reproduce
+      description: Please provide a sample code snippet for reproducing bugs.
+    validations:
+      required: true
+
+  - type: textarea
+    id: env
+    attributes:
+      label: Your Environment
+      description: Please Copy from your IDE's *About* page
+    validations:
+      required: true
