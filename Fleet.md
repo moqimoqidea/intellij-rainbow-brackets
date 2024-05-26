@@ -19,29 +19,49 @@ Here are some screenshots:
 
 ## Install Rainbow Brackets into your Fleet IDE and config it
 
-1. Enable internal mode for Fleet: add "internalMode": true, into Fleet settings.json file, and *Restart your Fleet IDE*
+1. install by editing the `settins.json` file
 
-**internal mode is not required now since the last 1.33 update**
+Add this section: 
 
-<img width="582" alt="image" src="https://github.com/izhangzhihao/intellij-rainbow-brackets/assets/12044174/fa5f9928-aa92-4a49-8478-c6e8a46691ee">
+```
+ "plugins": [
+        {
+            "type": "add",
+            "pluginName": "izhangzhihao.fleet.rainbow.brackets"
+        }
+    ]
+```
+
+```bash
+vi ~/.fleet/settings.json
+
+{
+    "theme": "dark-edited", // keep using your edited themes here!
+    "internalMode": true,
+    "plugins": [
+        {
+            "type": "add",
+            "pluginName": "izhangzhihao.fleet.rainbow.brackets"
+        }
+    ]
+}
+```
 
 
-<img width="368" alt="image" src="https://github.com/izhangzhihao/intellij-rainbow-brackets/assets/12044174/4e3037b8-7e3e-4854-b2ac-10c212018e80">
 
-
-2. install it from the plugin section:
+3. Or install it from the plugin section:
   <img width="391" alt="image" src="https://github.com/izhangzhihao/intellij-rainbow-brackets/assets/12044174/b775095e-6813-4cc2-a005-d2fb76589830">
 
-3. Search Rainbow Brackets and install it:
+4. Search Rainbow Brackets and install it:
   <img width="568" alt="image" src="https://github.com/izhangzhihao/intellij-rainbow-brackets/assets/12044174/150d23e4-7150-42cf-9984-76956a136143">
 
-4. Approve changes:
+5. Approve changes:
   <img width="409" alt="image" src="https://github.com/izhangzhihao/intellij-rainbow-brackets/assets/12044174/4ea2f1ef-9767-4d75-aa65-3d8aab29cb81">
 
-5. Edit your current color theme:
+6. Edit your current color theme:
   <img width="844" alt="image" src="https://github.com/izhangzhihao/intellij-rainbow-brackets/assets/12044174/4ce4a3e3-91c6-47e2-85f8-8bdf38db58b3">
 
-6. Choose your edited color theme(you may need to restart)
+7. Choose your edited color theme(you may need to restart)
   <img width="809" alt="image" src="https://github.com/izhangzhihao/intellij-rainbow-brackets/assets/12044174/ff5ec052-478f-4654-a0fc-544c1eced1a1">
   <img width="855" alt="image" src="https://github.com/izhangzhihao/intellij-rainbow-brackets/assets/12044174/ef887365-5c41-40ec-a0f9-55fd7cdaa7b3">
 
