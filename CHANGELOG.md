@@ -24,6 +24,19 @@ Please check the latest screenshots [here](https://github.com/izhangzhihao/intel
 
 ## Change log
 
+<p>2024.2.5</p>
+        <ul>
+            <li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/issues/2741">IDEA-328501 Support semantic highlighting for Dart / Dart Rainbow Variables supported.</a></li>
+        </ul>
+        <br/>
+
+<p>2024.2.4</p>
+        <ul>
+            <li>Compatible with 2024.2</li>
+            <li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/issues/2740">Failed to rainbowify tag name in .tsx files.</a></li>
+        </ul>
+        <br/>
+
 <p>2024.2.3</p>
 <ul>
     <li>Compatible with 2024.1</li>
