@@ -24,9 +24,21 @@ Please check the latest screenshots [here](https://github.com/izhangzhihao/intel
 
 ## Change log
 
+<p>2024.2.6</p>
+        <ul>
+            <li>Compatible with 2024.2 Beta</li>
+            <li>Fix <a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/issues/2756">Class initialization must not depend on services</a></li>
+            <li>Fix <a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/issues/2739">Migrate to ProjectActivity</a></li>
+        </ul>
+        <br/>
+
 <p>2024.2.5</p>
         <ul>
-            <li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/issues/2741">IDEA-328501 Support semantic highlighting for Dart / Dart Rainbow Variables supported.</a></li>
+            <li>Compatible with 2024.2 Beta</li>
+            <li>Fix <a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/issues/2753"><clinit> requests com.intellij.codeInsight.highlighting.FileTypeBraceMatcher instance</a></li>
+            <li>[paid feature] <a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/issues/2741">IDEA-328501 Support semantic highlighting for Dart / Dart Rainbow Variables supported.</a></li>
+            <li>[paid feature] <a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/issues/2709">Compatible with semantic highlighting for C# after Rider 2024.2</a></li>
+            <li>[paid feature] Add new option to adjust the indent guideline's highlighting strength</li>
         </ul>
         <br/>
 
