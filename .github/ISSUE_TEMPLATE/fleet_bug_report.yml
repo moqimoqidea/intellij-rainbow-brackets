@@ -13,16 +13,6 @@ body:
     validations:
        required: true
 
-  - type: dropdown
-    id: internal
-    attributes:
-      label: Have you checked the internal mode turns on?
-      options:
-        - 'No'
-        - 'Yes'
-    validations:
-       required: true
-
   - type: input
     id: lang
     attributes:
@@ -52,6 +42,7 @@ body:
     attributes:
       label: Code snippet for reproduce
       description: Please provide a sample code snippet for reproducing bugs.
+      render: shell
     validations:
       required: true
 

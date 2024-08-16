@@ -6,18 +6,18 @@
 <li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/issues/2677">Jinja2 Template support</a></li>
 <li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/blob/2020.3/README.md#yaml">Highlighting indent guide-lines for YAML</a></li>
 <li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/discussions/2653">Option to adjust the effect of scope/border/restrain highlighting</a></li>
-            <li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/discussions/2644">Current Block Highlighting(experimental)</a></li>
-            <li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets#yaml">Rainbowify YAML tags</a></li>
-            <li><a href="https://user-images.githubusercontent.com/12044174/202852094-2da6945b-598e-4def-ab0c-331abdd6d3f8.png">Color generator for rainbow variables</a></li>
-            <li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/issues/2526">Show and save generated colors</a></li>
-            <li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/blob/2020.3/README.md#indent-highlighting">Highlighting indent guide-lines advanced options</a></li>
-            <li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/blob/2020.3/README.md#python">Highlighting indent guide-lines for Python</a></li>
-            <li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/blob/2020.3/README.md#pugjade">Highlighting indent guide-lines for Pug/Jade</a></li>
-            <li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/blob/2020.3/README.md#advanced-options-of-color-generator">Color generator advanced options</a></li>
-            <li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/blob/2020.3/README.md#customize-colors">Config up to 10 colors in config panel</a></li>
-            <li>C# support(Rainbow Brackets and variables)</li>
-            <li><a href='https://github.com/izhangzhihao/intellij-rainbow-brackets/issues/186'>F# support(Rainbow Brackets and variables, requires Rider 2023.2 or above)</a></li>
-            <li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/issues/424#issuecomment-1377176193">C++ support in Rider IDE</a></li></ul>
+<li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/discussions/2644">Current Block Highlighting(experimental)</a></li>
+<li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets#yaml">Rainbowify YAML tags</a></li>
+<li><a href="https://user-images.githubusercontent.com/12044174/202852094-2da6945b-598e-4def-ab0c-331abdd6d3f8.png">Color generator for rainbow variables</a></li>
+<li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/issues/2526">Show and save generated colors</a></li>
+<li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/blob/2020.3/README.md#indent-highlighting">Highlighting indent guide-lines advanced options</a></li>
+<li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/blob/2020.3/README.md#python">Highlighting indent guide-lines for Python</a></li>
+<li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/blob/2020.3/README.md#pugjade">Highlighting indent guide-lines for Pug/Jade</a></li>
+<li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/blob/2020.3/README.md#advanced-options-of-color-generator">Color generator advanced options</a></li>
+<li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/blob/2020.3/README.md#customize-colors">Config up to 10 colors in config panel</a></li>
+<li>C# support(Rainbow Brackets and variables)</li>
+<li><a href='https://github.com/izhangzhihao/intellij-rainbow-brackets/issues/186'>F# support(Rainbow Brackets and variables, requires Rider 2023.2 or above)</a></li>
+<li><a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/issues/424#issuecomment-1377176193">C++ support in Rider IDE</a></li></ul>
 
 ## Screenshots
 

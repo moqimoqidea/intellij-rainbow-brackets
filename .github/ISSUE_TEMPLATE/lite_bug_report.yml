@@ -1,6 +1,6 @@
-name: Bug Report
-description: File a bug report
-labels: ["bug?"]
+name: Rainbow Brackets Lite Bug Report
+description: File a bug report for Rainbow Brackets Lite
+labels: ["bug?", "lite version"]
 body:
 
   - type: dropdown
@@ -20,16 +20,6 @@ body:
       description: like Java, Python etc.
     validations:
        required: true
-
-  - type: dropdown
-    id: user
-    attributes:
-      label: Free or paid?
-      options:
-        - Free users
-        - On trial
-        - Paid users
-        - Others
 
   - type: textarea
     id: exp
