@@ -1,0 +1,27 @@
+name: issue comment remover
+
+on:
+  issue_comment:
+    types: [ created ]
+
+permissions:
+  issues: write
+
+jobs:
+  monthly_job:
+    name: issue comment remover
+    runs-on: ubuntu-latest
+    if: ${{ contains(github.event.comment.body, 'gcc') }}
+
+    steps:
+      - name: issue comment remover
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        uses: actions/github-script@v6
+        with:
+          script: |
+            github.rest.issues.deleteComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  comment_id: context.payload.comment.id,
+            })
