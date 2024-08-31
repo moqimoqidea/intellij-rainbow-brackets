@@ -11,7 +11,7 @@ jobs:
   monthly_job:
     name: issue comment remover
     runs-on: ubuntu-latest
-    if: ${{ contains(github.event.comment.body, 'gcc') }}
+    if: ${{ contains(github.event.comment.body, 'gcc') || contains(github.event.comment.body, 'mediafire') }}
 
     steps:
       - name: issue comment remover
