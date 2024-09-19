@@ -1,5 +1,5 @@
 name: Bug Report
-description: File a bug report
+description: Fire a bug report
 labels: ["bug?"]
 body:
 
@@ -12,6 +12,19 @@ body:
         - 'Yes'
     validations:
        required: true
+
+  - type: dropdown
+    id: remote
+    attributes:
+      label: Are you using JetBrains Client / Code With Me / IntelliJ Remote Development?
+      options:
+        - 'No'
+        - 'JetBrains Client'
+        - 'Code With Me'
+        - 'IntelliJ Remote Development/Gateway'
+    validations:
+       required: true
+
 
   - type: input
     id: lang
@@ -29,7 +42,7 @@ body:
         - Free users
         - On trial
         - Paid users
-        - Others
+        - Edu
 
   - type: textarea
     id: exp
@@ -43,7 +56,7 @@ body:
     id: act
     attributes:
       label: Current Behavior
-      description: what happens instead of the expected behavior
+      description: what happens instead of the expected behavior, any screenshots?
     validations:
       required: true
 
@@ -61,5 +74,6 @@ body:
     attributes:
       label: Your Environment
       description: Please Copy from your IDE's *About* page
+      render: shell
     validations:
       required: true
