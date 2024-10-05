@@ -1,4 +1,4 @@
-name: issue comment remover
+name: Anti Phishing
 
 on:
   issue_comment:
@@ -8,13 +8,13 @@ permissions:
   issues: write
 
 jobs:
-  monthly_job:
-    name: issue comment remover
+  anti_phishing:
+    name: Anti Phishing
     runs-on: ubuntu-latest
     if: ${{ contains(github.event.comment.body, 'gcc') || contains(github.event.comment.body, 'mediafire') }}
 
     steps:
-      - name: issue comment remover
+      - name: Phishing comment remover
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         uses: actions/github-script@v6

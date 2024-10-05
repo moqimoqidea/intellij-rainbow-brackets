@@ -17,6 +17,7 @@ body:
     id: remote
     attributes:
       label: Are you using JetBrains Client / Code With Me / IntelliJ Remote Development?
+      description: JetBrains Client/IntelliJ Remote Development not supported because of https://github.com/izhangzhihao/intellij-rainbow-brackets/issues/2584#issuecomment-1399424131, you don't need to install Rainbow Brackets in the Code With Me client side, it works once the server side has this plugin.
       options:
         - 'No'
         - 'JetBrains Client'
