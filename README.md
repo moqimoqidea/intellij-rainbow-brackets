@@ -52,6 +52,8 @@ IntelliJ IDEA(Ultimate/Community/Educational), PhpStorm, WebStorm, PyCharm(Profe
 
 Java, Scala, Clojure, Kotlin, Python, Haskell, Agda, Rust, JavaScript, TypeScript, Erlang, Go, Groovy, Ruby, Elixir, Objective-C, PHP, HTML, XML, SQL, Apex language, C#, F#, Dart, Pug/Jade, Bash, Vue.js, C# Razor Pages, GLSL(the OpenGL Shading Language), Go Template, C++, C, Solidity, Jinja2, Clang, CPP, C...
 
+**NOTE: Please note that some features require the paid version for full support.**
+
 ## Install
 
 <a href="https://plugins.jetbrains.com/embeddable/install/10080">
@@ -262,7 +264,6 @@ You can support us by the following actions:
 * Star this project
 * Share this plugin with your friends
 * Rate this plugin on [JetBrains plugin repository](https://plugins.jetbrains.com/plugin/10080-rainbow-brackets)
-* Make pull requests
 * Report bugs
 * Tell us your ideas
 * Buy Me a Coffee [here](buymeacoffee.com/rainbowbrackets)
@@ -275,7 +276,7 @@ I believe this will benefit both the community and our team. The community will 
 
 Please download the Lite version [here](https://plugins.jetbrains.com/plugin/20710).
 
-**NOTE: the lite version does NOT support C# lang and NOT support C++ in the Rider IDE**
+**NOTE: If you need C# or C++ support in Rider IDE, these features are only available in the paid version. The Lite version does not include them. Upgrade to the paid version for full functionality**
 
 ## Acknowledgements
 

@@ -28,8 +28,10 @@ Here are some screenshots:
 3. Approve changes:
   <img width="409" alt="image" src="https://github.com/izhangzhihao/intellij-rainbow-brackets/assets/12044174/4ea2f1ef-9767-4d75-aa65-3d8aab29cb81">
 
-4. Edit your current color theme:
+4. Edit your current color theme, or simple choose the 'Rainbow Brackets Generated' theme
   <img width="844" alt="image" src="https://github.com/izhangzhihao/intellij-rainbow-brackets/assets/12044174/4ce4a3e3-91c6-47e2-85f8-8bdf38db58b3">
+
+  **NOTE: Currently, there is a bug in Fleet where the theme automatically resets to the default after restarting the IDE. You may need to manually reselect your preferred theme. For more details, check the issue here: [FL-27542](https://youtrack.jetbrains.com/issue/FL-27542/Theme-reversion-to-default-upon-popup-opening).**
 
 5. Choose your edited color theme(you may need to restart)
   <img width="809" alt="image" src="https://github.com/izhangzhihao/intellij-rainbow-brackets/assets/12044174/ff5ec052-478f-4654-a0fc-544c1eced1a1">

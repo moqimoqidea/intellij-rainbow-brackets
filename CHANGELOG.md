@@ -25,6 +25,34 @@ Please check the latest screenshots [here](https://github.com/izhangzhihao/intel
 
 ## Change log
 
+
+<p>2024.2.9</p>
+        <ul>
+            <li>Compatible with 2025.1 EAP</li>
+            <li>Fix <a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/issues/2804">Throwing ClassNotFound errors if the Kotlin plugin not enabled</a></li>
+            <li>Highlighting performance improvement</li>
+        </ul>
+        <br/>
+
+<p>2024.2.8</p>
+        <ul>
+            <li>Fix <a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/issues/2791">Causes unified diff to lose syntax highlighting</a></li>
+            <li>Fix <a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/issues/2789">Disable rainbow brackets for specific languages not working</a></li>
+            <li>Feature Rainbow Variables for SQL(very early stag and only for 2024.3, disabled by default)</li>
+            <li>Add new Rainbow Variables Setting page</li>
+        </ul>
+        <br/>
+
+
+<p>2024.2.7</p>
+        <ul>
+            <li>Feature <a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/issues/2766">Add default colors to color generator blacklist</a></li>
+            <li>Feature <a href="https://github.com/izhangzhihao/intellij-rainbow-brackets/issues/2787">Add MDX file support</a></li>
+            <li>supports Kotlin K2 mode</li>
+            <li>Compatible with 2024.3 EAP</li>
+        </ul>
+        <br/>
+
 <p>2024.2.6</p>
         <ul>
             <li>Compatible with 2024.2 Beta</li>
